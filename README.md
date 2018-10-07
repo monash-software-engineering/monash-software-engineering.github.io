@@ -9,7 +9,7 @@ Setup
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `make serve` to view your site locally(http://0.0.0.0:5000). Note that the list of publications is in `bib/pubs.bib`. Typing `make` will generate `pubs.html`, which contains a pretty, sorted HTML-formatted list of papers. The public page, `publications.html`, also has a link to download the original BibTeX.
+6. Type `make` to build the site and then run `make serve` to view your site locally(http://127.0.0.1:5000/). Note that the list of publications is in `bib/pubs.bib`. Typing `make` will generate `pubs.html`, which contains a pretty, sorted HTML-formatted list of papers. The public page, `publications.html`, also has a link to download the original BibTeX.
 7. Keep adding content. See below for instructions for each of the various sections.
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 

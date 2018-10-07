@@ -99,9 +99,10 @@ DavoudMougouei:
 
 
 grad-a:
-    display_name: "Grad A"
+    display_name: "Zhipeng Gao"
     role: grad
-
+    bio: Ph.D student
+    image: /img/people/ZhipengGao.jpg
 
 
 alum-a:

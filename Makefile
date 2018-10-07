@@ -6,11 +6,12 @@ all: build
 BIBBLE = bibble
 
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
-	mkdir -p _includes
+#mkdir -p _includes  #build a _includes file 
 	$(BIBBLE) $+ > $@
 
 build: _includes/pubs.html
-	jekyll build --incremental --watch
+	jekyll build 
+#--incremental
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve

@@ -80,7 +80,14 @@ ChunyangChen:
     bio: Lecturer
     webpage: "https://chunyang-chen.github.io/"
     image: /img/people/ChunyangChen.jpg
-    
+
+ChongChunyong:
+    display_name: "Chun Yong Chong "
+    role: faculty
+    bio: Lecturer (Malaysia)
+    webpage: "https://www.monash.edu.my/it/staff/academic-staff/dr-chong-chun-yong"
+    image: /img/people/ChongChunyong.jpg
+
     
 WaqarHussain:
     display_name: "Waqar Hussain"

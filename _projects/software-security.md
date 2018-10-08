@@ -8,6 +8,7 @@ description: |
 people:
   - MarcelBoehme
   - LiLi
+  - JohnGrundy
 
 
 layout: project

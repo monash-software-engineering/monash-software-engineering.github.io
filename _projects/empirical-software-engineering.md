@@ -10,7 +10,7 @@ people:
   - BurakTurhan
   - ChunyangChen
   - LiLi
-
+  - JohnGrundy
 
 layout: project
 last-updated: 2018-10-06

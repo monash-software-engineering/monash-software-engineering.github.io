@@ -1,15 +1,16 @@
 ---
-title: Human-Computer Interaction
+title: Human-Centric Software Engineering
 
 
 description: |
-  Human and social aspects of software engineering, User behavior analysis
+  Human and social aspects of software engineering, Developers' behavior analysis
 
 people:
   - JonWhittle
   - ChunyangChen
   - WaqarHussain
   - DavoudMougouei
+  - JohnGrundy
 
 
 layout: project

@@ -19,6 +19,13 @@ BurakTurhan:
     bio: Associate Professor
     webpage: "https://turhanb.net/"
     image: /img/people/BurakTurhan.jpg
+       
+AldeidaAleti:
+    display_name: "Aldeida Aleti"
+    role: faculty
+    bio: Senior Lecturer
+    webpage: "http://users.monash.edu.au/~aldeidaa/"
+    image: /img/people/AldeidaAleti.jpg
     
 Yuan-FangLi:
     display_name: "Yuan-Fang Li"
@@ -26,14 +33,7 @@ Yuan-FangLi:
     bio: Senior Lecturer
     webpage: "http://users.monash.edu.au/~yli/"
     image: /img/people/Yuan-FangLi.jpg
-    
-    
-AldeidaAleti:
-    display_name: "Aldeida Aleti"
-    role: faculty
-    bio: Senior Lecturer
-    webpage: "http://users.monash.edu.au/~aldeidaa/"
-    image: /img/people/AldeidaAleti.jpg
+
     
 ChrisLing:
     display_name: "Chris Ling"

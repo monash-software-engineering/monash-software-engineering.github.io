@@ -21,7 +21,7 @@ there by default by Bootstrap columns.
 
 {% if person.webpage %}
     {% capture name %}
-        <a href="{{ person.webpage | escape }}"> {{ person.display_name }} </a>
+        <a href="{{ person.webpage | escape }}" target="_blank"> {{ person.display_name }} </a>
     {% endcapture %}
 {% else %}
     {% assign name = person.display_name %}

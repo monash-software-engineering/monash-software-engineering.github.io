@@ -36,7 +36,7 @@ text-decoration hack is for Safari. We don't SVGs to be underlined.
 
 {% if person.webpage %}
     <a href="{{ person.webpage | escape }}"
-       style="text-decoration: none">
+       style="text-decoration: none"  target="_blank">
         {{ image }}
     </a>
 {% else %}

@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: https://ccywch.github.io/monash-software-force/
+name: Monash Software Engineering
+url: https://monash-software-engineering.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 

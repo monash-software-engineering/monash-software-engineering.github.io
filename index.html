@@ -23,13 +23,13 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-    Monash Software Force (MSF) is the leading Software Engineering research group in Australia. Based at Monash University, the group's research is focused in three main areas: <b>(i) Artificcial Intelligence and Automation in Software Engineering; (ii) Social and Ethical Software; (iii) Software Quality.</b>
+    Monash Software Force (MSF) is the leading Software Engineering research group in Australia. Based at <a href="https://www.monash.edu/it">Faculty of Information Technology</a>, Monash University, the group's research is focused in three main areas: <b>(i) Artificcial Intelligence and Automation in Software Engineering; (ii) Social and Ethical Software; (iii) Software Quality.</b>
     
     </p>
 </div>
 
 <section>
-    <h2>News</h2>
+    <h3>News</h3>
     <ul class="news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
@@ -61,7 +61,7 @@ role-tables:
 
 
 <section>
-    <h2>Research Area</h2>
+    <h3>Research Projects</h3>
     <div class="card-columns">
         {% comment %}
         Sort the projects by date, putting those without dates last

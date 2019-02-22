@@ -81,6 +81,13 @@ ChunyangChen:
     webpage: "https://chunyang-chen.github.io/"
     image: /img/people/ChunyangChen.jpg
 
+ChakkritTantithamthavorn:
+    display_name: "Chakkrit Tantithamthavorn"
+    role: faculty
+    bio: Lecturer
+    webpage: "http://chakkrit.com/"
+    image: /img/people/ChakkritTantithamthavorn.png    
+    
 ChongChunyong:
     display_name: "Chun Yong Chong "
     role: faculty
@@ -103,7 +110,20 @@ DavoudMougouei:
     webpage: "http://bcert.org/people/davoud-mougouei/"
     image: /img/people/DavoudMougouei.jpg
 
+ThuanPham:
+    display_name: "Thuan Pham"
+    role: faculty
+    bio: Research Fellow
+    webpage: "http://bcert.org/people/davoud-mougouei/"
+    image: /img/people/ThuanPham.jpg
 
+HouriehKhalajzadeh:
+    display_name: "Hourieh Khalajzadeh"
+    role: faculty
+    bio: Research Fellow
+    webpage: "https://research.monash.edu/en/persons/hourieh-khalajzadeh"
+    image: /img/people/HouriehKhalajzadeh.jpg
+    
 
 grad-a:
     display_name: "Zhipeng Gao"

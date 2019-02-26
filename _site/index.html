@@ -1,27 +1,101 @@
----
-layout: default
-title: Home
-notitle: true
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Monash Software Engineering: Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/group.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header d-flex
+                        flex-column
+                        flex-md-row justify-content-md-between">
+                <a href="/" class="">
+                    <img src="/img/logo.png"
+                         srcset="/img/logo@2x.png 2x"
+                         alt="Awesome" id="logo">
+                </a>
+                <ul class="nav nav-pills justify-content-center">
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty]
-    width: 8
-    image: true
-  - roles: [grad]
-    width: 4
-    image: true
-#- - roles: [collab, ugrad, ugrad-alum]
-#    width: 5
-#    image: false
-#  - roles: [alum]
-#    width: 7
-#    image: false
+                    
+                    
 
----
+                        
 
+                        
+                        
+                        
 
-<div class="jumbotron">
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="/">
+                                Home
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/#people">
+                                People
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/research.html">
+                                PhD Projects
+                            </a>
+                        </li>
+
+                    
+
+                        
+
+                        
+                        
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link "
+                               href="/publications.html">
+                                Publications
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+            </div>
+
+            
+
+            
+
+            <div class="jumbotron">
     <p>
     Monash Software Force (MSF) is the leading Software Engineering research group in Australia. Based at <a href="https://www.monash.edu/it">Faculty of Information Technology</a>, Monash University, the group's research is focused in three main areas: <b>(i) Artificial Intelligence and Automation in Software Engineering; (ii) Social and Ethical Software; and (iii) Software Quality.</b>
     
@@ -31,49 +105,1823 @@ role-tables:
 <section>
     <h3>News</h3>
     <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
+        
+            
+
+
+
+
+
+
+
+<li class="shortnews">
+    
+        
+<span class="fa fa-fw fa-newspaper-o"></span>
+<span class="date">October 02, 2018</span>
+
+        
+    <div>
+        
+            Dr <a href="http://earlbarr.com/" target="_blank">Earl Barr</a> from UCL visited our group for three days.
+
+        
+    </div>
+
+    
+</li>
+
+        
     </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
+    
+    
         <p>
             <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+            <a href="/blog.html">Older posts&hellip;</a>
         </p>
-    {% endif %}
+    
 </section>
 
 <div id="people">
     <h2>People</h2>
-    {% for role-table in page.role-tables %}
+    
         <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
+            
+                <div class="col-md-8">
+                    
+                        
+
+
+
+    
+        <h3 class="pt-3"> Faculty </h3>
+        <div class="role faculty">
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/jon-whittle/publications/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Jon Whittle"
+             title="Jon Whittle"
+             src="/img/people/JonWhittle.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://research.monash.edu/en/persons/jon-whittle/publications/" target="_blank"> Jon Whittle </a>
+     </h6>
+            
+                <div class="bio">Professor</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/site/johncgrundy/Home"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="John Grundy"
+             title="John Grundy"
+             src="/img/people/JohnGrundy.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://sites.google.com/site/johncgrundy/Home" target="_blank"> John Grundy </a>
+     </h6>
+            
+                <div class="bio">Professor</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://turhanb.net/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Burak Turhan"
+             title="Burak Turhan"
+             src="/img/people/BurakTurhan.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://turhanb.net/" target="_blank"> Burak Turhan </a>
+     </h6>
+            
+                <div class="bio">Associate Professor</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://users.monash.edu.au/~aldeidaa/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Aldeida Aleti"
+             title="Aldeida Aleti"
+             src="/img/people/AldeidaAleti.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://users.monash.edu.au/~aldeidaa/" target="_blank"> Aldeida Aleti </a>
+     </h6>
+            
+                <div class="bio">Senior Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://users.monash.edu.au/~yli/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Yuan-Fang Li"
+             title="Yuan-Fang Li"
+             src="/img/people/Yuan-FangLi.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://users.monash.edu.au/~yli/" target="_blank"> Yuan-Fang Li </a>
+     </h6>
+            
+                <div class="bio">Senior Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/chris-ling"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chris Ling"
+             title="Chris Ling"
+             src="/img/people/ChrisLing.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://research.monash.edu/en/persons/chris-ling" target="_blank"> Chris Ling </a>
+     </h6>
+            
+                <div class="bio">Senior Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/robert-merkel"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Robert Merkel"
+             title="Robert Merkel"
+             src="/img/people/RobertMerkel.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://research.monash.edu/en/persons/robert-merkel" target="_blank"> Robert Merkel </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://mboehme.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Marcel Boehme"
+             title="Marcel Boehme"
+             src="/img/people/MarcelBoehme.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://mboehme.github.io/" target="_blank"> Marcel Boehme </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://xin-xia.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Xin Xia"
+             title="Xin Xia"
+             src="/img/people/XinXia.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://xin-xia.github.io/" target="_blank"> Xin Xia </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://lilicoding.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Li Li"
+             title="Li Li"
+             src="/img/people/LiLi.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://lilicoding.github.io/" target="_blank"> Li Li </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://chunyang-chen.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chunyang Chen"
+             title="Chunyang Chen"
+             src="/img/people/ChunyangChen.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://chunyang-chen.github.io/" target="_blank"> Chunyang Chen </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://chakkrit.com/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chakkrit Tantithamthavorn"
+             title="Chakkrit Tantithamthavorn"
+             src="/img/people/ChakkritTantithamthavorn.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://chakkrit.com/" target="_blank"> Chakkrit Tantithamthavorn </a>
+     </h6>
+            
+                <div class="bio">Lecturer</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.monash.edu.my/it/staff/academic-staff/dr-chong-chun-yong"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chun Yong Chong "
+             title="Chun Yong Chong "
+             src="/img/people/ChongChunyong.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.monash.edu.my/it/staff/academic-staff/dr-chong-chun-yong" target="_blank"> Chun Yong Chong  </a>
+     </h6>
+            
+                <div class="bio">Lecturer (Malaysia)</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/waqar-hussain"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Waqar Hussain"
+             title="Waqar Hussain"
+             src="/img/people/WaqarHussain.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://research.monash.edu/en/persons/waqar-hussain" target="_blank"> Waqar Hussain </a>
+     </h6>
+            
+                <div class="bio">Research Fellow</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://bcert.org/people/davoud-mougouei/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Davoud Mougouei"
+             title="Davoud Mougouei"
+             src="/img/people/DavoudMougouei.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://bcert.org/people/davoud-mougouei/" target="_blank"> Davoud Mougouei </a>
+     </h6>
+            
+                <div class="bio">Research Fellow</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://bcert.org/people/davoud-mougouei/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Thuan Pham"
+             title="Thuan Pham"
+             src="/img/people/ThuanPham.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://bcert.org/people/davoud-mougouei/" target="_blank"> Thuan Pham </a>
+     </h6>
+            
+                <div class="bio">Research Fellow</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/hourieh-khalajzadeh"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Hourieh Khalajzadeh"
+             title="Hourieh Khalajzadeh"
+             src="/img/people/HouriehKhalajzadeh.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://research.monash.edu/en/persons/hourieh-khalajzadeh" target="_blank"> Hourieh Khalajzadeh </a>
+     </h6>
+            
+                <div class="bio">Research Fellow</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                    
                 </div>
-            {% endfor %}
+            
+                <div class="col-md-4">
+                    
+                        
+
+
+
+    
+
+    
+
+    
+
+    
+        <h3 class="pt-3"> Graduate Students </h3>
+        <div class="role grad">
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    
+
+
+
+
+
+
+
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile"
+             alt="Zhipeng Gao"
+             title="Zhipeng Gao"
+             src="/img/people/ZhipengGao.jpg" />
+    
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> Zhipeng Gao </h6>
+            
+                <div class="bio">Ph.D student</div>
+            
+        </div>
+    </div>
+
+
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                    
+                </div>
+            
         </section>
-    {% endfor %}
+    
 </div>
 
 
 <section>
     <h3>Research Projects</h3>
     <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
+        
+        
+        
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                AI-Driven Software Defect Intelligence in the Age of DevOps
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/AI-Driven_Software_Defect_Intelligence_in_the_Age_of_DevOps.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://chakkrit.com/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chakkrit Tantithamthavorn"
+             title="Chakkrit Tantithamthavorn"
+             src="/img/people/ChakkritTantithamthavorn.png" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Using smart contracts to support collaborative Business Process Modelling and Execution
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Using_smart_contracts_to_support_collaborative_Business_Process_Modelling_and_Execution.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/site/johncgrundy/Home"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="John Grundy"
+             title="John Grundy"
+             src="/img/people/JohnGrundy.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Testing on the edge
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Testing_on_the_edge.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://turhanb.net/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Burak Turhan"
+             title="Burak Turhan"
+             src="/img/people/BurakTurhan.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/hourieh-khalajzadeh"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Hourieh Khalajzadeh"
+             title="Hourieh Khalajzadeh"
+             src="/img/people/HouriehKhalajzadeh.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Security Guarantees for Automated Software Testing
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Security_Guarantees_for_Automated_Software_Testing.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://mboehme.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Marcel Boehme"
+             title="Marcel Boehme"
+             src="/img/people/MarcelBoehme.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://users.monash.edu.au/~aldeidaa/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Aldeida Aleti"
+             title="Aldeida Aleti"
+             src="/img/people/AldeidaAleti.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/robert-merkel"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Robert Merkel"
+             title="Robert Merkel"
+             src="/img/people/RobertMerkel.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://bcert.org/people/davoud-mougouei/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Thuan Pham"
+             title="Thuan Pham"
+             src="/img/people/ThuanPham.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Resilient AI against poisoning attack
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Resilient_AI_against_poisoning_attack.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://chunyang-chen.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chunyang Chen"
+             title="Chunyang Chen"
+             src="/img/people/ChunyangChen.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://users.monash.edu.au/~aldeidaa/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Aldeida Aleti"
+             title="Aldeida Aleti"
+             src="/img/people/AldeidaAleti.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://bcert.org/people/davoud-mougouei/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Thuan Pham"
+             title="Thuan Pham"
+             src="/img/people/ThuanPham.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/robert-merkel"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Robert Merkel"
+             title="Robert Merkel"
+             src="/img/people/RobertMerkel.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Model-driven engineering for mobile/wearable eHealth applications
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Model-driven_engineering_for_mobile_wearable_eHealth_applications.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/site/johncgrundy/Home"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="John Grundy"
+             title="John Grundy"
+             src="/img/people/JohnGrundy.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                High-Performance Fuzzing Finding More Bugs Faster
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/High_Performance_Fuzzing_Finding_More_Bugs_Faster.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://mboehme.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Marcel Boehme"
+             title="Marcel Boehme"
+             src="/img/people/MarcelBoehme.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://users.monash.edu.au/~aldeidaa/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Aldeida Aleti"
+             title="Aldeida Aleti"
+             src="/img/people/AldeidaAleti.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/robert-merkel"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Robert Merkel"
+             title="Robert Merkel"
+             src="/img/people/RobertMerkel.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="http://bcert.org/people/davoud-mougouei/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Thuan Pham"
+             title="Thuan Pham"
+             src="/img/people/ThuanPham.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Domain-specific Visual Languages for Big Data Analytics applications
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Domain-specific_Visual_Languages_for_Big_Data_Analytics_applications.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/site/johncgrundy/Home"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="John Grundy"
+             title="John Grundy"
+             src="/img/people/JohnGrundy.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
+            
+                
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        
+        
+            <h4 class="card-title">
+                Women in STEM Education
+            </h4>
+        
+        
+        <div class="card-text">
+            
+
+        </div>
+        
+            <a href="/projects/Women_in_STEM_Education.html"> Read more &raquo;</a>
+        
+    </div>
+    
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://research.monash.edu/en/persons/jon-whittle/publications/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Jon Whittle"
+             title="Jon Whittle"
+             src="/img/people/JonWhittle.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://xin-xia.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Xin Xia"
+             title="Xin Xia"
+             src="/img/people/XinXia.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://lilicoding.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Li Li"
+             title="Li Li"
+             src="/img/people/LiLi.png" />
+    
+    </a>
+
+
+                </div>
+            
+                <div>
+                    
+                    
+
+
+
+
+
+
+
+    <a href="https://chunyang-chen.github.io/"
+       style="text-decoration: none"  target="_blank">
+        
+        <img class="rounded-circle profile"
+             alt="Chunyang Chen"
+             title="Chunyang Chen"
+             src="/img/people/ChunyangChen.jpg" />
+    
+    </a>
+
+
+                </div>
+            
+        </div>
+    
+</div>
+
+            
+        
     </div>
 </section>
 
 
+
+
+            <div class="footer">
+                <p>
+                    <a href="https://www.monash.edu/it">Faculty of Information Technology</a>
+                    at the
+                    <a href="https://www.monash.edu/">Monash University</a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
